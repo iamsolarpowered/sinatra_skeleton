@@ -1,0 +1,214 @@
+/* Copyright 2009 Ben Shymkiw (ben@tapiocacollective.com) */
+
+
+/* HTML TAGS */
+
+a, a:visited {
+  text-decoration: none;
+  color: #666;
+  padding: 0 2px;
+}
+a:hover, .move_icon:hover {
+  background: #666;
+  color: white;
+}
+a img {
+  border: none;
+}
+
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #ccccc9;
+  line-height: 1.1;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: dotted 1px #333;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 16px;
+}
+h3, h4 {
+  font-size: 14px;
+  border-bottom: none;
+  margin-top: 0;
+}
+h3 {
+  font-weight: bold;
+}
+
+form {
+  max-width: 600px;
+}
+input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+input.submit {
+  width: auto;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+label {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.1;
+  margin-bottom: 1em;
+}
+
+small {
+  font-size: 11px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  font-weight: bold;
+}
+td {
+  padding: 1em;
+}
+
+/* CLASSES */
+
+.avatar {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border: solid 1px #999;
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.breadcrumbs a {
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+.edit_link, .destroy_link, .new_link, .comment_link, .rss_link {
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+.icons, .icon {
+  font-size: 12px;
+  line-height: 1.1;
+}
+.icons a {
+  padding-left: 0;
+}
+.icons img, img.icon {
+  margin: 2px;
+  margin-left: 0;
+  margin-bottom: -3px;
+}
+
+.handle {
+  font-size: 12px;
+  cursor: move;
+  color: #666;
+}
+
+.list {
+  height: 400px;
+  overflow: auto;
+  border: dotted 1px #999;
+}
+.list div {
+  margin: 1em;
+}
+.list .item {
+  border-bottom: dotted 1px #999;
+}
+.list .item .actions {
+  font-size: 10px;
+}
+
+.odd {
+  background-color: #eee;
+}
+
+.nav {
+  font-weight: bold;
+}
+
+.smtxt {
+  font-size: 8px;
+}
+
+/* IDs */
+
+#admin_menu {
+  background-color: #444;
+  padding: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#admin_menu a {
+  background-color: #333;
+  font-weight: bold;
+  padding: 1em 2em;
+  margin-top: .5em;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#flash {
+  color: white;
+  background: #666;
+  border: solid 2px #888;
+  margin: 1em auto;
+}
+#flash p {
+  margin: .5em;
+}
+#flash #error {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+#login_info {
+  text-align: right;
+  font-size: 10px;
+}
+
+#search_form {
+  float: right;
+}
+
+#sidebar {
+  float: right;
+}
+#sidebar div {
+  padding: 1em;
+  padding-top: 0;
+  margin-bottom: 1em;
+  width: 200px;
+  background: #eee;
+  border: solid 1px #999;
+}

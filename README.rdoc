@@ -1,0 +1,3 @@
+= Sinatra Skeleton
+
+Simple Sinatra skeleton app. Automatically loads models and contents of lib directory.
