@@ -1,6 +1,10 @@
 require 'activerecord'
 require 'haml'
 
+# Credentials for HTTPAuth
+set :username, 'admin'
+set :password, 'secret'
+
 # ActiveRecord Setup
 ActiveRecord::Base.establish_connection(
   :adapter => 'sqlite3',
