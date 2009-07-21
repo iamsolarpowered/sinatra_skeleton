@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'sinatra' unless defined?(Sinatra)
+require 'sinatra'
 require 'config'
 
 get '/' do

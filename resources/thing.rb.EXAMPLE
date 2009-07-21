@@ -7,3 +7,5 @@ class Thing
   property  :name,        String
   property  :description, Text
 end
+
+rest Thing, :renderer => :haml
